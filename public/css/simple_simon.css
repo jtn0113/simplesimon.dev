@@ -1,0 +1,40 @@
+body {
+	background-color: grey;
+}
+
+.wrapper {
+	height: 640px;
+	width: 640px;
+	border-radius: 49%;
+	background-color: black;
+	margin-top: 500px;
+	margin: 0 auto;
+}
+
+.button {
+	height: 300px;
+	width: 300px;
+	float: left;
+	margin: 10px;
+	opacity: 0.4;
+}
+
+#buttonGreen {
+	border-top-left-radius: 300px;
+	background-color: green;
+}
+
+#buttonRed {
+	border-top-right-radius: 300px;
+	background-color: red;
+}
+
+#buttonYellow {
+	border-bottom-left-radius: 300px;
+	background-color: yellow;
+}
+
+#buttonBlue {
+	border-bottom-right-radius: 300px;
+	background-color: blue;
+}
