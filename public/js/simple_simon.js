@@ -61,6 +61,7 @@ function userInput() {
 			$('.button').off('click');
 			}else{
 				clickedNumber++;
+				$('#sound')[0].play();
 			}
 		} else {
 			gamesColors = [];
