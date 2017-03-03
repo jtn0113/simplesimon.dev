@@ -4,7 +4,6 @@ var clickedNumber = 0;
 var gamesColors = [];
 var myColors = [];
 function flash(buttonId) {
-	console.log('buttonId is: ' + buttonId)
 	$("#" + buttonId).animate({
 		opacity: '1.0'
 	}, 500).animate({
@@ -48,16 +47,14 @@ function gameSequence() {
 // STARTS THE GAME
 $('#buttonMiddle').click(function(event) {
 	random();
+	$("#gameOver").html("");
 });
 
 // BUTTON USER CLICKED WILL FLASH, IF CORRECT: CONTINUE
 function userInput() {
 	$('.button').on("click", function() {
-		console.log("click id: " + this.id);
 		flash(this.id);
-		console.log(this.id);
 		if($(this).attr('data') == gamesColors[clickedNumber]) {
-			console.log('Correct');
 			if(clickedNumber == gamesColors.length - 1) {
 				clickedNumber = 0;
 				random();
@@ -70,7 +67,6 @@ function userInput() {
 			clickedNumber = 0;
 			$('.button').off('click');
 			$("#gameOver").html("GAME OVER");
-			console.log('Fail');
 		}
 	});
 };
