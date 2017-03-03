@@ -7,7 +7,6 @@ body {
 	width: 640px;
 	border-radius: 49%;
 	background-color: black;
-	margin-top: 500px;
 	margin: 0 auto;
 }
 
@@ -37,4 +36,15 @@ body {
 #buttonBlue {
 	border-bottom-right-radius: 300px;
 	background-color: blue;
+}
+
+#buttonMiddle {
+	background-color: black;
+	  position: absolute;
+	  top: 195px;
+	  left: 515px;
+	  width: 250px;
+	  height: 250px;
+	  background: black;
+	  border-radius: 125px;
 }
