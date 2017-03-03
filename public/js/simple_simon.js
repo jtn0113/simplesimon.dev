@@ -69,6 +69,7 @@ function userInput() {
 			gamesColors = [];
 			clickedNumber = 0;
 			$('.button').off('click');
+			$("#gameOver").html("GAME OVER");
 			console.log('Fail');
 		}
 	});

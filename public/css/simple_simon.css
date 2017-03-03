@@ -1,5 +1,4 @@
 body {
-	background-color: grey;
 	background-image: url('/img/rainbow-background.jpeg');
 }
 
@@ -7,7 +6,7 @@ body {
 	height: 640px;
 	width: 640px;
 	border-radius: 49%;
-	background-color: black;
+	background-color: #3B3B3B;
 	margin: 0 auto;
 	position: absolute;
 	top: 28px;
@@ -24,26 +23,25 @@ body {
 
 #buttonGreen {
 	border-top-left-radius: 300px;
-	background-color: green;
+	background-color: #1DBA04;
 }
 
 #buttonRed {
 	border-top-right-radius: 300px;
-	background-color: red;
+	background-color: #C30000;
 }
 
 #buttonYellow {
 	border-bottom-left-radius: 300px;
-	background-color: yellow;
+	background-color: #F5FF03;
 }
 
 #buttonBlue {
 	border-bottom-right-radius: 300px;
-	background-color: blue;
+	background-color: #3160FF;
 }
 
 #buttonMiddle {
-	background-color: black;
 	width: 250px;
 	height: 250px;
 	border-radius: 125px;
@@ -58,10 +56,10 @@ body {
 	height: 75px;
 	font-family: 'Baloo', cursive;
 	float: left;
-	color: #FFC300;
+	color: #FF0092;
 }
 
-#score {
+.scoreText {
 	position: relative;
 	left: 50px;
 }
