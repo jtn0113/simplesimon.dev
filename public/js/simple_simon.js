@@ -41,7 +41,7 @@ function gameSequence() {
 		}else{
 			i++;	
 		}
-	console.log(turn);
+	$("#score").html(gamesColors.length);
 	}, 1000);
 };
 

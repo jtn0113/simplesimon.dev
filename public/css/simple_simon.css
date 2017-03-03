@@ -1,5 +1,6 @@
 body {
 	background-color: grey;
+	background-image: url('/img/rainbow-background.jpeg');
 }
 
 .wrapper {
@@ -8,6 +9,9 @@ body {
 	border-radius: 49%;
 	background-color: black;
 	margin: 0 auto;
+	position: absolute;
+	top: 28px;
+	left: 25%;
 }
 
 .button {
@@ -40,11 +44,24 @@ body {
 
 #buttonMiddle {
 	background-color: black;
-	  position: absolute;
-	  top: 195px;
-	  left: 515px;
-	  width: 250px;
-	  height: 250px;
-	  background: black;
-	  border-radius: 125px;
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
+	float: left;
+	position: relative;
+	bottom: 445px;
+	left: 195px;
+}
+
+#scoreboard {
+	width: 100px;
+	height: 75px;
+	font-family: 'Baloo', cursive;
+	float: left;
+	color: #FFC300;
+}
+
+#score {
+	position: relative;
+	left: 50px;
 }
