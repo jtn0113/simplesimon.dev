@@ -2,7 +2,6 @@ var randomNumber;
 var turn = 1;
 var clickedNumber = 0;
 var gamesColors = [];
-var myColors = [];
 function flash(buttonId) {
 	$("#" + buttonId).animate({
 		opacity: '1.0'
@@ -58,6 +57,7 @@ function userInput() {
 			if(clickedNumber == gamesColors.length - 1) {
 				clickedNumber = 0;
 				random();
+				$('#sound')[0].play();
 			$('.button').off('click');
 			}else{
 				clickedNumber++;
