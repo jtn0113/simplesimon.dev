@@ -47,10 +47,14 @@ $(document).ready(function() {
     };
 
     // STARTS THE GAME
-    $('#buttonMiddle').click(function(event) {
-        random();
-        $("#gameOver").html("");
-    });
+    function startGame(){
+        $('#buttonMiddle').on("click",function(event) {
+            random();
+            $("#gameOver").html("");
+            $("#buttonMiddle").off("click");
+        });
+    }
+    startGame();
 
     // BUTTON USER CLICKED WILL FLASH, IF CORRECT: CONTINUE
     function userInput() {
@@ -67,8 +71,9 @@ $(document).ready(function() {
             } else {
                 gamesColors = [];
                 clickedNumber = 0;
-                $('.button').off('click');
+                $(".button").off("click");
                 $("#gameOver").html("GAME OVER");
+                startGame();
             }
         });
     };
