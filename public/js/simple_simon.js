@@ -53,7 +53,7 @@ $(document).ready(function() {
             $("#gameOver").html("");
             $("#buttonMiddle").off("click");
         });
-    }
+    };
     startGame();
 
     // BUTTON USER CLICKED WILL FLASH, IF CORRECT: CONTINUE
