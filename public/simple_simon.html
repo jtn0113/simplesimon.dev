@@ -1,37 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Simple Simon Game</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/simple_simon.css">
-	<link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+    <title> Simple Simon Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/simple_simon.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
 </head>
 <body>
-	<div class="wrapper">
-		<div class="button" id="buttonGreen" data="1">
-		</div>
-		
-		<div class="button" id="buttonRed" data="2">
-		</div>
+    <div class="wrapper">
+        <div class="button" id="buttonGreen" data="1">
+        </div>
+        
+        <div class="button" id="buttonRed" data="2">
+        </div>
 
-		<div class="button" id="buttonYellow" data="3">
-		</div>
+        <div class="button" id="buttonYellow" data="3">
+        </div>
 
-		<div class="button" id="buttonBlue" data="4">
-		</div>
+        <div class="button" id="buttonBlue" data="4">
+        </div>
 
-		<img id="buttonMiddle" src="/img/power-button-over.png" alt="Start The Game">
+        <img id="buttonMiddle" src="/img/power-button-over.png" alt="Start The Game">
+    </div>
+    <div id="scoreboard">
+        <h1>Round:</h1>
+        <h2 id="score" class="scoreText"></h2>
+        <h2 id="gameOver" class="scoreText"></h2>
+    </div>
 
-		<audio id="sound" src="/sounds/boing.mp3"></audio>
-	</div>
-	<div id="scoreboard">
-		<h1>Round:</h1>
-		<h2 id="score" class="scoreText"></h2>
-		<h2 id="gameOver" class="scoreText"></h2>
-	</div>
-
-	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="js/simple_simon.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/simple_simon.js"></script>
 </body>
 </html>

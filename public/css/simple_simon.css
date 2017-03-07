@@ -1,65 +1,65 @@
 body {
-	background-image: url('/img/rainbow-background.jpeg');
+    background-image: url('/img/rainbow-background.jpeg');
 }
 
 .wrapper {
-	height: 640px;
-	width: 640px;
-	border-radius: 49%;
-	background-color: #3B3B3B;
-	margin: 0 auto;
-	position: absolute;
-	top: 28px;
-	left: 25%;
+    height: 640px;
+    width: 640px;
+    border-radius: 49%;
+    background-color: #3B3B3B;
+    margin: 0 auto;
+    position: absolute;
+    top: 28px;
+    left: 25%;
 }
 
 .button {
-	height: 300px;
-	width: 300px;
-	float: left;
-	margin: 10px;
-	opacity: 0.4;
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin: 10px;
+    opacity: 0.4;
 }
 
 #buttonGreen {
-	border-top-left-radius: 300px;
-	background-color: #1DBA04;
+    border-top-left-radius: 300px;
+    background-color: #1DBA04;
 }
 
 #buttonRed {
-	border-top-right-radius: 300px;
-	background-color: #C30000;
+    border-top-right-radius: 300px;
+    background-color: #C30000;
 }
 
 #buttonYellow {
-	border-bottom-left-radius: 300px;
-	background-color: #F5FF03;
+    border-bottom-left-radius: 300px;
+    background-color: #F5FF03;
 }
 
 #buttonBlue {
-	border-bottom-right-radius: 300px;
-	background-color: #3160FF;
+    border-bottom-right-radius: 300px;
+    background-color: #3160FF;
 }
 
 #buttonMiddle {
-	width: 250px;
-	height: 250px;
-	border-radius: 125px;
-	float: left;
-	position: relative;
-	bottom: 445px;
-	left: 195px;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    float: left;
+    position: relative;
+    bottom: 445px;
+    left: 195px;
 }
 
 #scoreboard {
-	width: 100px;
-	height: 75px;
-	font-family: 'Baloo', cursive;
-	float: left;
-	color: #FF0092;
+    width: 100px;
+    height: 75px;
+    font-family: 'Baloo', cursive;
+    float: left;
+    color: #FF0092;
 }
 
 .scoreText {
-	position: relative;
-	left: 50px;
+    position: relative;
+    left: 50px;
 }
